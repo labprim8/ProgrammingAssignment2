@@ -1,14 +1,17 @@
-## Put comments here that give an overall description of what your
-## functions do
+## these two functions will provide a way to calculate the inverse of a square
+## matrix and store the results in cache so that it doesn't have to be calculated
+## again
 
-## Write a short comment describing this function
+
+## This function creates a list to get and set the inverse and the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## This function checks to see if the cache contains the inverse of x, if it does
+## not then it is calculated and stored
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
